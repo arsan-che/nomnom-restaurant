@@ -4,3 +4,7 @@ FROM nomnom;
 SELECT DISTINCT 
 neighborhood
 FROM nomnom;
+
+SELECT DISTINCT 
+cuisine
+FROM nomnom;
