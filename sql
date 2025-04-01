@@ -21,3 +21,7 @@ SELECT *
 FROM nomnom
 WHERE cuisine = 'Italian' 
   AND price = '$$$';
+
+SELECT *
+FROM nomnom
+WHERE name LIKE '%meatball%';
