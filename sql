@@ -16,3 +16,8 @@ WHERE cuisine = 'Chinese';
 SELECT *
 FROM nomnom
 WHERE review >= 4;
+
+SELECT *
+FROM nomnom
+WHERE cuisine = 'Italian' 
+  AND price = '$$$';
