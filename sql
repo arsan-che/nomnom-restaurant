@@ -12,3 +12,7 @@ FROM nomnom;
 SELECT *
 FROM nomnom
 WHERE cuisine = 'Chinese';
+
+SELECT *
+FROM nomnom
+WHERE review >= 4;
